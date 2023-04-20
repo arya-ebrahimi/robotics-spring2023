@@ -1,0 +1,17 @@
+launch:
+
+- node:
+    pkg: "alicesim"
+    exec: "alice_node"
+    name: "alice"
+
+- node:
+    pkg: "bobsim"
+    exec: "bob_node"
+    name: "bob"
+
+
+
+
+
+

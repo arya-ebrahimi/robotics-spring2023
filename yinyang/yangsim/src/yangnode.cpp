@@ -44,9 +44,7 @@ public:
     {
         client_cb_group_ = nullptr;
         timer_cb_group_ = nullptr;
-
         this->declare_parameter("shout", false);
-
         publisher_ = this->create_publisher<std_msgs::msg::String>("conversation", 10);
 
         client_ptr_ = this->create_client<yinyang_msgs::srv::Pipi>(
@@ -200,8 +198,6 @@ int main(int argc, char* argv[])
     rclcpp::executors::MultiThreadedExecutor executor;
     executor.add_node(client_node);
 
-    RCLCPP_INFO(client_node->get_logger(), "Starting client node, shut down with CTRL-C");
-    RCLCPP_INFO(client_node->get_logger(), "Keyboard interrupt, shutting down.\n");
     try
     {
       executor.spin();
