@@ -10,3 +10,5 @@
 
 2. Introduction to TF2
 	- [**Turtlemania**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/turtlemania) -> Some turtles chasing each other using tf2 transforms.
+3. Motion Planning using Moveit2
+	- [**FUMTI**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/FUMTI) -> motion planning using moveit, rviz and gazebo.
