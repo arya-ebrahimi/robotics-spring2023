@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="FUMTI">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import FUMTI urdf file -->
+    <xacro:include filename="$(find fumti)/urdf/FUMTI.urdf.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="FUMTI.ros2_control.xacro" />
+
+
+    <xacro:FUMTI_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>
