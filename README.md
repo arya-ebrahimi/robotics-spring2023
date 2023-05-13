@@ -15,6 +15,6 @@
 	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/FUMTI/outputs/5.gif)
 
 4. Mobile Robots
-	- [**Simple Differential Drive**]([https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/FUMTI](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/simple_differntial_drive) -> simple diff drive, forward and backward Twist published using ros2 topic and converted to gz topic using ros_gz_bridge.
+	- [**Simple Differential Drive**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/simple_differntial_drive) -> simple diff drive, forward and backward Twist published using ros2 topic and converted to gz topic using ros_gz_bridge.
 	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/simple_differntial_drive/gif/out.gif)
 
