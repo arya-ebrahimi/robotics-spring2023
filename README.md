@@ -17,4 +17,8 @@
 4. Mobile Robots
 	- [**Simple Differential Drive**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/simple_differntial_drive) -> simple diff drive, forward and backward Twist published using ros2 topic and converted to gz topic using ros_gz_bridge.\
 	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/simple_differntial_drive/gif/out.gif)
+	
+
+	- [**Maze**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/maze) -> previous diff-drive in a maze, using LIDAR sensor to detect walls and preventing the collision.\
+	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/maze/gif/out.gif)
 
