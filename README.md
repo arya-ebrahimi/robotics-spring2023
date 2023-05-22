@@ -20,4 +20,7 @@
 
 	- [**Maze**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/maze) -> previous diff-drive in a maze, using LIDAR sensor to detect walls and preventing the collision.\
 	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/maze/gif/out.gif)
+	
+	- [**RGB-Navigate**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/rgb_navigate) -> Navigate eddiebot using RGB signs in a maze.\first clone and build [eddiebot-ros](https://github.com/arashsm79/eddiebot-ros)
+	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/rgb_navigate/gif/out.gif)
 
