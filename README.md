@@ -23,4 +23,7 @@
 	
 	- [**RGB-Navigate**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/rgb_navigate) -> Navigate eddiebot in a maze using RGB signs. first clone and build [eddiebot-ros](https://github.com/arashsm79/eddiebot-ros).\
 	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/rgb_navigate/gif/out.gif)
+	
+	-[**Eddie-Kinect-Laserscan**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/eddie_kinect_laserscan) -> Convert kinect depth image to LaserScan using [depthimage_to_laserscan](https://github.com/ros-perception/depthimage_to_laserscan).\
+	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/eddie_kinect_laserscan/gif/out.gif)
 
