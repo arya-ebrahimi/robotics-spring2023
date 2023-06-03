@@ -32,7 +32,7 @@ def generate_launch_description():
         Node(
             package='ros_gz_bridge',
             executable='parameter_bridge',
-            arguments=['/model/eddiebot/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
+            arguments=['/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
                        '/kinect_rgbd_camera/image@sensor_msgs/msg/Image@gz.msgs.Image'],
         )
     )

@@ -15,7 +15,7 @@ class RGB_NAV(Node):
     def __init__(self):
         super().__init__('rgb_navigate')
         
-        self.pub = self.create_publisher(Twist, '/model/eddiebot/cmd_vel', 10)
+        self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
         self.eddie_camera = self.create_subscription(Image, '/kinect_rgbd_camera/image', self.eddie_camera_cb, 10)
         
         self.call_timer = self.create_timer(TIMER, self._timer_cb)
