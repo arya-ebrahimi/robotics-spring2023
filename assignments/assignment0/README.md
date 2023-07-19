@@ -50,7 +50,7 @@ Create three terminals, enter rosbox and source ros2 in all of them.
   rqt
   ````
   After running this command, a window will popup. select spawn service and spawn a turtle named turtle2.
-  ![](https://github.com/Arya-Ebrahimi/robotics-lab-solutions/blob/main/Images/Assignments/Assignment0/1.png)
+  ![](https://github.com/Arya-Ebrahimi/robotics-spring2023/blob/main/assets/assignments/assignment0/1.png)
   
 - third terminal:
   For controlling the first turtle, simply run the following command:
