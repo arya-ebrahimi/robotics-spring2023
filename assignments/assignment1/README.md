@@ -6,7 +6,7 @@
    ```` bash
    ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle01
    ````
-This command creates a new node named `my_turtle01`. By running `ros2 node list` command, we can observe the newly created node in the list.
-![](https://github.com/Arya-Ebrahimi/robotics-spring2023/blob/main/assets/assignments/assignment1/1.png)
+   This command creates a new node named `my_turtle01`. By running `ros2 node list` command, we can observe the newly created node in the list.
+   ![](https://github.com/Arya-Ebrahimi/robotics-spring2023/blob/main/assets/assignments/assignment1/1.png)
 
-2. 
+3. 
