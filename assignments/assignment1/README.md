@@ -39,3 +39,9 @@ By utilizing two services and one topic, it is possible to simulate an action in
    ``` bash
    ros2 bag play record/
    ```
+----
+## Exercise2
+The code for this exercise can be found in the [`multi_language_publisher_subscriber`](https://github.com/Arya-Ebrahimi/robotics-spring2023/tree/main/assignments/assignment1/multi_language_publisher_subscriber) directory.
+
+![](../../assets/assignments/assignment1/5.png)
+![](../../assets/assignments/assignment1/4.png)
