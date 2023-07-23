@@ -38,4 +38,5 @@ ros2 launch eddie_kinect_laserscan eddie_kinect_laserscan.launch.py
 
 ## Exercise3
 Before adding static transforms, there are two disconnected trees, which results in no transform between the `odom` and `base_footprint` frames. By adding static transforms between `world` and `odom`, and between `odom` and `base_footprint`, the tf system can calculate the transforms between these frames. This ensures that the entire tree becomes connected, allowing for proper transformation between all frames.
+
 ![](../../assets/assignments/assignment6/5.png)
