@@ -6,7 +6,7 @@ The [`VelocityControl`](https://gazebosim.org/api/sim/7/classgz_1_1sim_1_1system
 
 ## Exercise2
 
-For this exercise, the [`eddie_kinect_laserscan`](assignments/assignment6/eddie_kinect_laserscan) package has been created, comprising a launch file and an RViz configuration.
+For this exercise, the [`eddie_kinect_laserscan`](eddie_kinect_laserscan) package has been created, comprising a launch file and an RViz configuration.
 
 The launch file performs the following steps:
 
