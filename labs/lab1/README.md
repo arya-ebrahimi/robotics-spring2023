@@ -1,8 +1,10 @@
 # Lab1
 ----
+<div style="text-align: center">
 
 ![](../../assets/labs/lab1/out.gif)
 
+</div>
 
 In this lab, we create a package comprising two nodes: a `spawner node` and a `controller node`. The spawner node is responsible for spawning six turtles on a polygon and subscribes to the chaser's pose topic to manage the killings. When the chaser gets close to any spawned turtle, it gets eliminated.
 
