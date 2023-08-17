@@ -1,29 +1,33 @@
 # Robotics-Spring2023
-### This repository contains my projects and homeworks for the Robotics-Spring2023 course at the Ferdowsi University of Mashhad.
+----
+###### This repository contains my projects and homeworks for the Robotics-Spring2023 course at the Ferdowsi University of Mashhad.
 
 1. Introduction to ROS2
-	- [ **Multi language publisher and subscriber**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/multi_language_publisher_subscriber " **Multi language publisher and subscriber**") -> Two superficial nodes which are communicating with topics. Subscriber is developed using Python, and the publisher is programmed in C++. 
+	- [**Assignment1**](assignments/assignment1/) -> `Multi Language Publisher Subscriber` Two nodes which are communicating with topics. Subscriber is developed using Python, and the publisher is programmed in C++. 
 
-	- [ **Turtlesim controller**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/turtlesim_controller " **Turtlesim controller**") -> A simple controller for turtlesim.
+	- [ **Lab1**](labs/lab1/) -> `Turtle Chaser`.
 
-	- [ **Yin and Yang**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/yinyang " **Yin and Yang**") -> Two packages, one in python and one in c++ that are communicating with each other using services and actions.
+	- [ **Assignment2**](assignments/assignment2/) -> `Yin&Yang` Two packages, one in python and one in C++ that are communicating with each other using ROS2 services and actions.
 
+	- [**Lab2**](labs/lab2/) -> `Turtlesim Controller` 
 2. Introduction to TF2
-	- [**Turtlemania**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/turtlemania) -> turtles chasing each other using tf2 transforms.
+	- [**Assignment3**](assignments/assignment3/) -> `Trutlemania` Turtles chasing each other using tf2 transforms.
+  
 3. Motion Planning using Moveit2
-	- [**FUMTI**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/FUMTI) -> motion planning using moveit, rviz and gazebo. 
+	- [**Lab4**](labs/lab4/) -> `Hello Moveit` Motion planning using moveit, rviz and gazebo using Panda manipulator.
+	- [**Lab5**](labs/lab4/) -> `FUMTI` motion planning using moveit, rviz and gazebo using FUMTI manipulator.
 
-4. Mobile Robots
-	- [**Simple Differential Drive**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/simple_differntial_drive) -> simple diff drive, forward and backward Twist published using ros2 topic and converted to gz topic using ros_gz_bridge.\
-	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/simple_differntial_drive/gif/out.gif)
-	
+4. Gazebo Intro
+   - [**Lab3**](labs/lab3/) -> `GZ Intro`
+   - [**Assignment5**](assignments/assignment5/) -> `RGB NAV` Gazebo installation guide is at the first of this assignment.
 
-	- [**Maze**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/maze) -> previous diff-drive in a maze, using LIDAR sensor to detect walls and preventing the collision.\
-	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/maze/gif/out.gif)
+5. Mobile Robots
+	- [**Lab7**](labs/lab7/) -> `Simple Differential Drive` Simple diff drive, forward and backward Twist published using ros2 topic and converted to gz topic using ros_gz_bridge.
 	
-	- [**RGB-Navigate**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/rgb_navigate) -> Navigate eddiebot in a maze using RGB signs. first clone and build [eddiebot-ros](https://github.com/arashsm79/eddiebot-ros).\
-	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/rgb_navigate/gif/out.gif)
-	
-	- [**Eddie-Kinect-Laserscan**](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/tree/main/eddie_kinect_laserscan) -> Convert kinect depth image to LaserScan using [depthimage_to_laserscan](https://github.com/ros-perception/depthimage_to_laserscan).\
-	![](https://github.com/Arya-Ebrahimi/Robotics-Spring2023/blob/main/eddie_kinect_laserscan/gif/out.gif)
+	- [**Lab8**](labs/lab8/) -> `Maze` Previous diff-drive in a maze, using LIDAR sensor to detect walls and preventing the collision.
 
+    - [**Lab9**](labs/lab9/) -> `Maze2` 
+	
+	- [**Assignment5**](assignments/assignment5/) -> `RGB NAV` Navigate eddiebot in a maze using RGB signs. first clone and build [eddiebot-ros](https://github.com/arashsm79/eddiebot-ros).
+	
+	- [**Assignment6**](assignments/assignment6/) -> `Eddie Kinect Laserscan` Convert kinect depth image to LaserScan using [depthimage_to_laserscan](https://github.com/ros-perception/depthimage_to_laserscan).
