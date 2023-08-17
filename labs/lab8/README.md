@@ -1,6 +1,6 @@
 # Lab8
 ----
-The package is available at [`maze`](simple_differntial_drive)
+The package is available at [`maze`](maze)
 
 The question is available at [`arashsm79`](https://github.com/arashsm79/robotics-lab/blob/main/Labs/Lab_8.md) repo.
 
