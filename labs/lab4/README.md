@@ -1,6 +1,5 @@
 # Lab4
 ----
-ChatGPT
 
 MoveIt is a popular and powerful motion planning framework for robotic systems, widely used in ROS. MoveIt provides a set of high-level APIs and tools to simplify motion planning tasks, allowing robotic systems to plan and execute trajectories for manipulation tasks efficiently and safely.
  

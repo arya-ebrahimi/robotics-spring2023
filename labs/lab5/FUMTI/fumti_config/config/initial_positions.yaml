@@ -1,0 +1,9 @@
+# Default initial positions for FUMTI's ros2_control fake system
+
+initial_positions:
+  6RJ1: 0
+  6RJ2: 0
+  6RJ3: 0
+  6RJ4: 0
+  6RJ5: 0
+  6RJ6: 0
